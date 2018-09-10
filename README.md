@@ -1,2 +1,2 @@
 # mesos-api
-Implementation
+A haskell implemetation of the Mesos HTTP apis 
