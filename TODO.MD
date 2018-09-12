@@ -1,36 +1,45 @@
+
+Setup
+========
+* Setup Tasty
+* Module skeleton
+* Setup travis ci
+
 PARSING
 =========
 
 Scheduler 
 ------------
 
-CALLS: 
+Commands: 
 
-[ ] Subscribe
-[ ] Accept
-[ ] Decline
-[ ] Teardown
-[ ] Kill
-[ ] Shutdown
-[ ] ACKNOWLEDGE
-[ ] ACKNOWLEDGE_OPERATION_STATUS
-[ ] MESSAGE
-[ ] REQUEST
-[ ] Suppress
-[ ] Revive
+* Subscribe
+* Accept
+* Decline
+* Teardown
+* Kill
+* Shutdown
+* Acknowledge
+* AcknowledgeOperationStatus
+* Message
+* Request
+* Suppress
+* Revive
 
 
 Events:
-[ ] Subscribed
-[ ] Offers
-[ ] HEARTBEAT
-[ ] Rescind
-[ ] Update
-[ ] Message
-[ ] Failure
-[ ] Error
+* Subscribed
+* Offers
+* Heartbeat 
+* Rescind
+* Update
+* Message
+* Failure
+* Error
 
 
 Basic Scheduler
 
-[ ] Handler
+* Handler 
+* Subscrition and event  channel
+* SendCommand
