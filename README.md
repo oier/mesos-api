@@ -1,2 +1,2 @@
-# mesos-api
-A haskell implemetation of the Mesos HTTP apis 
+# mesos-protos
+The protobuf genereated code by protocol-buffers' hprotoc
