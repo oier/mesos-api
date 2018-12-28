@@ -1,0 +1,33 @@
+name:                mesos-protos
+version:             0.1.0.0
+github:              "oier/mesos-protos"
+license:             BSD3
+author:              "Oier Blasco"
+maintainer:          "oierblasco@gmail.com"
+copyright:           "Oier Blasco 2018"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            system
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/oier/MesosProtoc#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- protocol-buffers
+- protocol-buffers-descriptor
+- bytestring 
+- req
+- data-default-class
+- http-client
+- conduit
+- http-conduit
+- resourcet
+library:
+  source-dirs: src
